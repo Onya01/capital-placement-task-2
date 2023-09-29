@@ -1,12 +1,10 @@
-import React from "react";
-
 const UserNameIcon = () => {
   return (
     <div>
       <svg
-        width="48"
-        height="48"
-        viewBox="0 0 48 48"
+        width="49"
+        height="49"
+        viewBox="0 0 49 49"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
