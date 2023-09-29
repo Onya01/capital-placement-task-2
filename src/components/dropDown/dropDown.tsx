@@ -1,4 +1,3 @@
-import React from "react";
 import { Col, Row, Select } from "antd";
 const { Option } = Select;
 const DropDown = ({ hoverIn, setHoverIn }: any) => {
