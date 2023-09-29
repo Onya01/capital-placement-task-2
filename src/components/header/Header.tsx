@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Col, Divider, Row } from "antd";
 import Title from "antd/es/typography/Title";
-import DropDown from "../dropDown/dropDown";
+import DropDown from "../dropDown/dropDow";
 import UserVoice from "../../components/sideIcons/UserVoice";
 import UserCheck from "../../components/sideIcons/UserCheck";
 import UserClose from "../../components/sideIcons/UserClose";

@@ -8,7 +8,7 @@ import {
   LoadingOutlined,
   SearchOutlined,
 } from "@ant-design/icons";
-import Filter from "../../components/filter/Filters";
+import Filter from "../../components/filter/Filter";
 import CandidateData from "../../data/CandidatesData.json";
 
 const Home = () => {
