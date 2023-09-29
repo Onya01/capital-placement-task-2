@@ -56,6 +56,6 @@ const Filter = (props: any) => {
       <Divider style={{ margin: 0 }} />
     </>
   );
-};
+}
 
 export default Filter;
