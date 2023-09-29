@@ -1,6 +1,6 @@
 import React from "react";
 import Candidates from "../../components/candidates/Candidates";
-import Header from "../../components/header/Header";
+import Header from "../../components/header/Headers";
 import { Button, Checkbox, Col, Divider, Input, Row, Space } from "antd";
 import Title from "antd/es/typography/Title";
 import {
