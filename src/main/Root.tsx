@@ -8,7 +8,7 @@ import ShareIcon from "../components/sideIcons/ShareIcon";
 import FileIcon from "../components/sideIcons/FileIcon";
 import FolderIcon from "../components/sideIcons/FolderIcon";
 import HeartIcon from "../components/sideIcons/HeartIcon";
-import BackIcon from "../components/sideIcons/BackIcons";
+import BackIcon from "../components/sideIcons/BackIcon";
 import Home from "../page/home/Home";
 import SettingIcon from "../components/sideIcons/SettingIcon";
 import UserNameIcon from "../components/sideIcons/UserNameIcon";
