@@ -142,6 +142,6 @@ const Header = () => {
       </Col>
     </Row>
   );
-};
+}
 
 export default Header;
