@@ -20,7 +20,7 @@ const Home = () => {
     "Education",
     "Work Experience",
     "Activity Filter",
-    "Advanced Filter",
+    "Advanced Filter"
   ];
   const [search, setSearch] = React.useState("");
 
@@ -81,7 +81,7 @@ const Home = () => {
                 justifyContent: "space-between",
                 alignItems: "center",
                 alignSelf: "stretch",
-                width: "100%",
+                width: "100%"
               }}
             >
               <Title
@@ -94,7 +94,7 @@ const Home = () => {
                   lineHeight: "22px",
                   display: "flex",
                   alignItems: "center",
-                  justifyContent: "center",
+                  justifyContent: "center"
                 }}
               >
                 Filters
@@ -129,7 +129,7 @@ const Home = () => {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                padding: "1rem",
+                padding: "1rem"
               }}
               span={2}
             >
