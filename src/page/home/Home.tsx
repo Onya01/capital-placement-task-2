@@ -1,6 +1,6 @@
 import React from "react";
 import Candidates from "../../components/candidates/Candidates";
-import Header from "../../components/header/Headers";
+import Header from "../../components/header/Header";
 import { Button, Checkbox, Col, Divider, Input, Row, Space } from "antd";
 import Title from "antd/es/typography/Title";
 import {
@@ -9,10 +9,10 @@ import {
   SearchOutlined,
 } from "@ant-design/icons";
 import Filter from "../../components/filter/Filter";
-import CandidateData from "../../data/CandidatesData.json";
+import CandidatesDateils from "../../data/CandidatesDateils.json";
 
 const Home = () => {
-  const [data, setData] = React.useState(CandidateData);
+  const [data, setData] = React.useState(CandidatesDateils);
   const [isloading, setIsLoading] = React.useState(false);
 
   const filterLabels = [
@@ -28,9 +28,9 @@ const Home = () => {
     setIsLoading(true);
     setSearch(e.target.value);
     if (e.target.value === "") {
-      setData(CandidateData);
+      setData(CandidatesDateils);
     } else {
-      const tempData = CandidateData.filter((value) => {
+      const tempData = CandidatesDateils.filter((value) => {
         return value.name
           .toLowerCase()
           .toString()
