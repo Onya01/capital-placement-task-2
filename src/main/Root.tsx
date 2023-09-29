@@ -3,7 +3,7 @@ import { Tabs } from "antd";
 import LoginIcon from "../components/sideIcons/LoginIcon";
 import HomeIcon from "../components/sideIcons/HomeIcon";
 import UserIcon from "../components/sideIcons/UserIcon";
-import CalendarIcon from "../components/sideIcons/CalenderIcon";
+import CalendarIcon from "../components/sideIcons/CalendarIcon";
 import ShareIcon from "../components/sideIcons/ShareIcon";
 import FileIcon from "../components/sideIcons/FileIcon";
 import FolderIcon from "../components/sideIcons/FolderIcon";
