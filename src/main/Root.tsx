@@ -5,7 +5,7 @@ import HomeIcon from "../components/sideIcons/HomeIcon";
 import UserIcon from "../components/sideIcons/UserIcon";
 import CalendarIcon from "../components/sideIcons/CalendarIcon";
 import ShareIcon from "../components/sideIcons/ShareIcon";
-import FileIcon from "../components/sideIcons/FileIcon";
+import FileIcon from "../components/sideIcons/FileIcons";
 import FolderIcon from "../components/sideIcons/FolderIcon";
 import HeartIcon from "../components/sideIcons/HeartIcon";
 import BackIcon from "../components/sideIcons/BackIcon";
