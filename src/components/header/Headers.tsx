@@ -2,10 +2,10 @@ import React from "react";
 import { Button, Col, Divider, Row } from "antd";
 import Title from "antd/es/typography/Title";
 import DropDown from "../dropDown/dropDown";
-import UserVoice from "../sideIcons/UserVoice";
-import UserCheck from "../sideIcons/UserCheck";
-import UserClose from "../sideIcons/UserClose";
-import UserTag from "../sideIcons/UserTag";
+import UserVoice from "../sideIcon/UserVoice";
+import UserCheck from "../sideIcon/UserCheck";
+import UserClose from "../sideIcon/UserClose";
+import UserTag from "../sideIcon/UserTag";
 import { DownOutlined, MailOutlined } from "@ant-design/icons";
 
 const Header = () => {

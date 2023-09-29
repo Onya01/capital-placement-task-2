@@ -1,17 +1,17 @@
 import React from "react";
 import { Tabs } from "antd";
-import LoginIcon from "../components/sideIcons/LoginIcon";
-import HomeIcon from "../components/sideIcons/HomeIcon";
-import UserIcon from "../components/sideIcons/UserIcon";
-import CalendarIcon from "../components/sideIcons/CalenderIcon";
-import ShareIcon from "../components/sideIcons/ShareIcon";
-import FileIcon from "../components/sideIcons/FileIcon";
-import FolderIcon from "../components/sideIcons/FolderIcon";
-import HeartIcon from "../components/sideIcons/HeartIcon";
-import BackIcon from "../components/sideIcons/BackIcons";
+import LoginIcon from "../components/sideIcon/LoginIcon";
+import HomeIcon from "../components/sideIcon/HomeIcon";
+import UserIcon from "../components/sideIcon/UserIcon";
+import CalendarIcon from "../components/sideIcon/CalenderIcon";
+import ShareIcon from "../components/sideIcon/ShareIcon";
+import FileIcon from "../components/sideIcon/FileIcon";
+import FolderIcon from "../components/sideIcon/FolderIcon";
+import HeartIcon from "../components/sideIcon/HeartIcon";
+import BackIcon from "../components/sideIcon/BackIcon";
 import Home from "../page/home/Home";
-import SettingIcon from "../components/sideIcons/SettingIcon";
-import UserNameIcon from "../components/sideIcons/UserNameIcon";
+import SettingIcon from "../components/sideIcon/SettingIcon";
+import UserNameIcon from "../components/sideIcon/UserNameIcon";
 
 const Layout: React.FC = () => {
   const iconsArray = [
