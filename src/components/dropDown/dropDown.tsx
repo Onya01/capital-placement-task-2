@@ -1,7 +1,7 @@
 import { Col, Row, Select } from "antd";
 const { Option } = Select;
-const DropDown = ({ hoverIn, setHoverIn }: any) => {
-  const dropDownData = [
+const dropDown = ({ hoverIn, setHoverIn }: any) => {
+  const dropDown = [
     {
       label: "Applied",
       value: "1745",
@@ -65,7 +65,7 @@ const DropDown = ({ hoverIn, setHoverIn }: any) => {
         size="large"
         listHeight={700}
       >
-        {dropDownData.map((value, index) => (
+        {dropDown.map((value, index) => (
           <Option
             key={index}
             value={value.label}
@@ -103,4 +103,4 @@ const DropDown = ({ hoverIn, setHoverIn }: any) => {
   );
 };
 
-export default DropDown;
+export default dropDown;

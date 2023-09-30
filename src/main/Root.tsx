@@ -13,7 +13,7 @@ import Home from "../page/home/Home";
 import SettingIcon from "../components/sideIcons/SettingIcon";
 import UserNameIcon from "../components/sideIcons/UserNameIcon";
 
-const Layout: React.FC = () => {
+const Root: React.FC = () => {
   const iconsArray = [
     <LoginIcon />,
     <HomeIcon />,
@@ -50,4 +50,4 @@ const Layout: React.FC = () => {
   );
 };
 
-export default Layout;
+export default Root;

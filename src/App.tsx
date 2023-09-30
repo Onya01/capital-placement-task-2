@@ -1,8 +1,8 @@
-import Layout from './main/Root';
+import Root from './main/Root';
 
 function App() {
   return (
-    <Layout/>
+    <Root/>
   );
 }
 
